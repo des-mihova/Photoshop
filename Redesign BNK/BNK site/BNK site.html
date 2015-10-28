@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+
+	body {
+		background-color: ffffff;
+		margin: 0px;
+		font-family: "Arial Regular", Georgia, Serif;
+		font-weight: 30px;
+	}
+
+	header {
+		background: -webkit-linear-gradient(left, #234465, #ffffff);
+		background: -o-linear-gradient(left, #234465, #ffffff);
+		background: linear-gradient(to right, #234465, #ffffff);
+		height: 200px;
+	}
+
+	i {
+		float: right;
+		margin-right: 150px;
+	}
+
+	i:after {
+		content: ""; clear: both; 
+	}
+
+	nav {
+		background-color: #234465;
+		padding-left: 175px;
+		border-bottom: 4px solid #c87d00;
+	}
+	
+	nav ul ul {
+		display: none;
+	}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+	nav ul {
+		padding: 0 20px;
+		margin:0;
+		border-radius: 10px;
+		list-style: none;
+		position: relative;
+		display: inline-block;
+	}
+
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+		margin-bottom: -4px;
+	}
+
+	nav ul li:hover a {
+		background-color: #c87d00;
+		color: white;
+		display: block;
+	}
+
+	nav ul li a {
+		display: block;
+		padding:  5px 38px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	nav ul ul {
+		background: #c87d00; 
+		padding: 0;
+		position: absolute;
+	}
+
+	nav ul ul li {
+		float: none;
+		border-radius: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+
+	nav ul ul li a {
+		color: #fff;
+	}	
+
+	nav ul ul li a:hover {
+		background: #234465;
+	}
+
+	nav ul ul ul {
+		position: absolute;
+		left: 100%;
+		top:0px; 
+	}
+	
+	#new-building {
+		background-color: #ffa000;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		display: inline-block;
+		width: 455px;
+		color: #234465;
+		margin-top: 40px;
+		padding: 5px;
+	}
+	
+	p {
+		margin: 0px;
+		font-size: 20px;
+	}
+
+	#wraper {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+
+	#img-bild1 {
+		background-image: url("1_2.jpg");
+		width: 470px;
+		height: 436px;
+		display: inline-block;
+		margin-left: 0px;
+		margin-top: 40px;
+		float: left;
+	}
+
+
+	#img-bild2 {
+		background-image: url("2_3.jpg");
+		margin-left: 40px;
+		margin-top: 40px;
+	}
+
+	#img-bild3 {
+		background-image: url("2_2.jpg");
+		margin-left: 40px;
+		margin-top: 40px;
+	}
+
+	.img {
+		width: 470px;
+		height: 436px;
+		float: left;
+	}
+
+	#news-advertise {
+		float: left;
+	}
+
+	.blue-article {
+		width: 470px;
+		height: 430px;
+		border-radius: 10px;
+		border: 2px solid #234465;
+		margin-top: 40px;
+	}
+
+	.news {
+		width: 470px;
+		height: 45px;
+		background-color: #234465;
+		color: #ffffff;
+		text-align: center;
+		padding-top: 5px;
+	}
+	
+	.font-size {
+		font-size: 24px;
+	}
+
+	.news-content {
+		padding: 10px;
+		color: #234465;
+	}
+
+	.buton {
+		width: 150px;
+		height: 40px;
+		background-color: #ffa000;
+		color: #ffffff;
+		border-radius: 10px;
+		text-align: center;
+		line-height: 35px;
+	}
+
+	div.blue-article div.buton {
+	margin-left: 160px;
+    margin-top: 100px;
+	}
+
+	#office {
+		float: left;
+		border: 3px solid black;
+		width: 1020px;
+	}
+
+	#build-img1 {
+		background-image: url("building15.jpg");
+	}
+
+	.build-office {
+		float: left;
+		width: 300px;
+		height: 162px;
+		margin-left: 40px;
+		margin-right: 40px;
+		display: inline-block;
+	}
+	
+	div#office div p {
+		margin-top: 40px;
+	}
+
+	div#office div div.buton {
+		margin-left: 380px;
+		margin-top: -4px;
+	}
+	
+	span {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+</style>
+</head>
+<body>
+	<div>
+		<header>
+			<i>
+				<img src="logo.png" alt="no logo">
+			</i>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Начало</a></li>
+				<li><a href="#">За фирмата</a>
+					<ul>
+						<li><a href="#">360 Виртуален тур</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Офис сграда 1</a>
+					<ul>
+						<li><a href="#">Свободни Складове</a></li>
+						<li><a href="#">Свободни Офиси</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Офис сграда 6</a>
+					<ul>
+						<li><a href="#">Свободни Складове</a></li>
+						<li><a href="#">Свободни Офиси</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Офис сграда 15</a>
+					<ul>
+						<li><a href="#">Свободни Складове</a></li>
+						<li><a href="#">Свободни Офиси</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Реклама</a></li>
+				<li><a href="#">Внос/Продажби</a>
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#">7</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Ресторанти</a></li>
+				<li><a href="#">Контакти</a></li>
+			</ul>
+		</nav>
+		<div id="wraper">
+			<div>
+				<section id="new-building">
+					<p>СТРОИ СЕ НОВА СГРАДА <br> на територията на "Търговски Център Европа"</p>
+				</section>
+			</div>
+			<div id="img-bild1"></div>
+			<div id="img-bild2" class="img"></div>
+			<div id="img-bild3" class="img"></div>
+			<div id="news-advertise">
+				<div class="blue-article">
+					<div class="news">
+						<p class="font-size">БНК Новини</p>
+					</div>
+					<div class="news-content"><p><br> 18.05.2015 <br> Официално откриване на централен склад на Рош България <br> <a href="">Повече</a> <br> <br>08.07.2014 <br> За втора поредна година БНК спечели наградата <br> <a href="">Повече</a><br> <br> 04.06.2014 <br>Като миналогодишен победител в конкурса "Най-зелените компании <br> <a href="">Повече</a></p>
+					</div>
+				</div>
+				<div class="blue-article">
+					<div class="news">
+						<p class="font-size">Реклама</p>
+					</div>
+					<div class="news-content"><br><p>Ако имате нужда от нещо по-голямо, нещо различно, нещо което се забелязва – ние сме насреща. Ние ви предлагаме уникални съоръжения за външна реклама.</p>
+					</div>
+					<div class="buton"><p class="font-size">Виж още</p></div>
+				</div>
+			</div>
+			<div id="office">
+				<div>
+					<div id="build-img1" class="build-office"></div>
+					<p class="news-content"><span>Офис сграда 15</span><br>Национален конкурс: Сграда на годината 2011 Категория "Многофункционални комплекси"</p>
+					<div class="buton"><p class="font-size">Виж още</p></div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
