@@ -22,9 +22,10 @@ i:after {
 }
 
 nav {
-	background-color: #234465;
-	padding-left: 175px;
-	border-bottom: 4px solid #c87d00;
+	height: 20px;
+	width: 1211px;
+	margin: 0 auto;
+
 }
 
 nav ul ul {
@@ -36,12 +37,12 @@ nav ul li:hover > ul {
 }
 
 nav ul {
-	padding: 0 20px;
 	margin:0;
 	border-radius: 10px;
 	list-style: none;
 	position: relative;
 	display: inline-block;
+	padding-left: 88px;
 }
 
 nav ul:after {
@@ -61,7 +62,7 @@ nav ul li:hover a {
 
 nav ul li a {
 	display: block;
-	padding:  5px 20px;
+	padding:  5px 12px;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -93,6 +94,13 @@ nav ul ul ul {
 	top:0px; 
 }
 
+#navigation {
+	width: 100%;
+	height: 28px;
+	background-color: #234465;
+	border-bottom: 4px solid #c87d00;
+}
+
 #new-building {
 	background-color: #ffa000;
 	border-top-right-radius: 10px;
@@ -106,18 +114,20 @@ nav ul ul ul {
 
 p {
 	margin: 0px;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 #wraper {
-	max-width: 1500px;
+	max-width: 1040px;
 	margin: 0 auto;
 }
 
 #img-bild1 {
 	background-image: url("1_2.jpg");
-	width: 470px;
-	height: 436px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 320px;
+	height: 296px;
 	display: inline-block;
 	margin-left: 0px;
 	margin-top: 40px;
@@ -127,19 +137,23 @@ p {
 
 #img-bild2 {
 	background-image: url("2_3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin-left: 40px;
 	margin-top: 40px;
 }
 
 #img-bild3 {
 	background-image: url("2_2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin-left: 40px;
 	margin-top: 40px;
 }
 
 .img {
-	width: 470px;
-	height: 436px;
+	width: 320px;
+	height: 296px;
 	float: left;
 }
 
@@ -148,23 +162,23 @@ p {
 }
 
 .blue-article {
-	width: 470px;
-	height: 363px;
+	width: 320px;
+	height: 356px;
 	border-radius: 10px;
 	border: 2px solid #234465;
 	margin-top: 40px;
 }
 
 #blue-article2 {
-	width: 470px;
-	height: 402px;
+	width: 320px;
+	height: 356px;
 	border-radius: 10px;
 	border: 2px solid #234465;
 	margin-top: 40px;
 }
 
 .news {
-	width: 470px;
+	width: 320px;
 	height: 45px;
 	background-color: #234465;
 	color: #ffffff;
@@ -192,13 +206,20 @@ p {
 }
 
 div#blue-article2 div.buton {
-margin-left: 160px;
+margin-left: 92px;
 margin-top: 100px;
 }
 
 #office {
 	float: left;
-	width: 1020px;
+	width: 676px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.office2 {
+	margin-bottom: 40px;
+	height: 160px;
 }
 
 #build-img1 {
@@ -208,20 +229,14 @@ margin-top: 100px;
 .build-office {
 	float: left;
 	width: 300px;
-	height: 184px;
-	margin-left: 40px;
+	height: 161px;
 	margin-right: 40px;
-	display: inline-block;
 	background-repeat: no-repeat;
-}
-
-div#office div p {
-	margin-top: 40px;
+	background-size: 100%;
 }
 
 div#office div div.buton {
-	margin-left: 380px;
-	margin-top: -4px;
+	margin-left: 340px;
 }
 
 span {
